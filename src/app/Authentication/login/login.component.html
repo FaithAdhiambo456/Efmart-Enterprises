@@ -1,0 +1,29 @@
+<body>
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4"> <!-- Narrower columns for centering -->
+        <div class="card mt-5"> <!-- Card for a clean look -->
+          <div class="card-header text-center">
+            <h2>Login here</h2>
+            <p>Sign in here to continue...</p>
+          </div>
+          <div class="card-body">
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" formControlName="email" >
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" formControlName="password" >
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Login</button> <!-- Full-width button -->
+              <small >Don't have an account yet?<a routerLink="/signup">Sign Up here!</a></small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+

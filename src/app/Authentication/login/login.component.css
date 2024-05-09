@@ -1,0 +1,40 @@
+.card {
+    border-radius: 10px; /* Optional: smooth border corners */
+  }
+  
+  .card-header {
+    background-color: #f8f9fa; /* Optional: light grey header */
+  }
+  
+  .card-body {
+    padding: 20px; /* Optional: more space inside the card */
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem; /* Ensure consistent spacing between elements */
+  }
+p{
+    color: maroon;
+    font-weight: bold;
+}  
+/* To add a background image to my loginpage */
+/* Background image that covers the entire page */
+body {
+    margin: 0; /* Ensure there are no margins */
+    padding: 0; /* Ensure there are no padding */
+    background-image: url('../../../assets/images/p1.avif'); 
+    height: 100%;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  /* Apply a semi-transparent overlay to make text more readable over a busy background */
+  /* .container {
+    background-color: rgba(255, 255, 255, 0.8);            
+    padding: 20px;
+    border-radius: 10px;
+ }
+   */
+
+  
