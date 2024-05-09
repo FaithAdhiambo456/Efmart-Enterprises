@@ -34,7 +34,7 @@ export class SignUpComponent implements OnInit {
     return password === confirmPassword ? null : { passwordMismatch: true };
   }
 
-  onSubmit() {
+  signUp() {
     if (this.signupForm.valid) {
       console.log('Form data', this.signupForm.value);
     } else {

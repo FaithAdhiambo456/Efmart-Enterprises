@@ -4,10 +4,10 @@
       <div class="col-md-6">
         <div class="card mt-5">
           <div class="card-header text-center">
-            <h2>Signup Form</h2>
+            <h3>Signup here...</h3>
           </div>
           <div class="card-body">
-            <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+            <form [formGroup]="signupForm" (ngSubmit)="signUp()">
               <div class="form-group mb-3">
                 <label for="firstName">First Name</label>
                 <input type="text" class="form-control" id="firstName" formControlName="firstName">
@@ -37,6 +37,7 @@
                 <input type="password" class="form-control" id="confirmPassword" formControlName="confirmPassword">
               </div>
               <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+              <small>Have an account already?<a routerLink="/login">Login Here</a></small>
             </form>
           </div>
         </div>

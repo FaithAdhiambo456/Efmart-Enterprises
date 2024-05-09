@@ -19,14 +19,14 @@ p{
 }  
 /* To add a background image to my loginpage */
 /* Background image that covers the entire page */
-body {
+html, body {
     margin: 0; /* Ensure there are no margins */
     padding: 0; /* Ensure there are no padding */
     background-image: url('../../../assets/images/p1.avif'); 
     height: 100%;
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
   }
   
   /* Apply a semi-transparent overlay to make text more readable over a busy background */

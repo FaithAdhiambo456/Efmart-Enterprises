@@ -19,13 +19,13 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  onSubmit() {
+  login() {
     if (this.loginForm.valid) {
       const email = this.loginForm.get('email')?.value; // Access the 'email' value
       console.log('Form Data:', this.loginForm.value);
-      alert(`Authenticated as ${email}`); // Show alert with the logged-in email
+      alert(`Authenticated as ${email}`); 
 
-      // Navigate to home or other desired route
+      
       this.router.navigate(['/home']);
     } else {
       console.log('Form is invalid');

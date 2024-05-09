@@ -15,12 +15,13 @@
   .card-header {
     font-weight: bold;
   }
-  body {
-    margin: 0; /* Ensure there are no margins */
-    padding: 0; /* Ensure there are no padding */
-    background-image: url('../../../assets/images/b2.jpg'); 
-    height: 100%;
+  /* html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    background-image: url('../../../assets/images/b1.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-  }
+    overflow-x: hidden; 
+  } */
