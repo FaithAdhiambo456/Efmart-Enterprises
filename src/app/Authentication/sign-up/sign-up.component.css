@@ -15,4 +15,12 @@
   .card-header {
     font-weight: bold;
   }
-  
+  body {
+    margin: 0; /* Ensure there are no margins */
+    padding: 0; /* Ensure there are no padding */
+    background-image: url('../../../assets/images/b2.jpg'); 
+    height: 100%;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
