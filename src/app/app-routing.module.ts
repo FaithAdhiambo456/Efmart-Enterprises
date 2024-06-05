@@ -7,11 +7,13 @@ import { AboutComponent } from './DashBoard Components/about/about.component';
 import { ServicesComponent } from './DashBoard Components/services/services.component';
 
 const routes: Routes = [
+  {path: '', component:LoginComponent},
   {path: 'signup', component:SignUpComponent},
   {path: 'login', component:LoginComponent},
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'services', component: ServicesComponent}
+  {path: 'services', component: ServicesComponent},
+  {path: 'logout', component: LoginComponent}
 ];
 
 @NgModule({
