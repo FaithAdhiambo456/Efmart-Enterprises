@@ -1,6 +1,6 @@
 <div class="product-container">
     <img >
-     <p> Name:</p>
+     <p> Name: </p>
      <p> Price:</p>
      <p> Color:</p>
      <p> Discounted Price:</p>
@@ -11,3 +11,9 @@
     <p>Current element of array is: {{item}}   
     </p>
    </div> -->
+   <div *ngFor="let product of products">
+<p>{{product.name}}</p>
+<p>{{product.color}}</p>
+<img [src]="product.imageURL">
+<p>{{product.price}}</p>
+   </div>
