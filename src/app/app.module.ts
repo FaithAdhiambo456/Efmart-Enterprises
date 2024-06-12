@@ -12,7 +12,9 @@ import { DashboardComponent } from './DashBoard Components/dashboard/dashboard.c
 import { ServicesComponent } from './DashBoard Components/services/services.component';
 import { FooterComponent } from './DashBoard Components/footer/footer.component';
 import { WeatherDetailsComponent } from './Enterprise components/weather-details/weather-details.component';
+import { ProductsListComponent } from './Enterprise components/weather-details/products-list/products-list.component';
 
+//Materials
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,13 +25,15 @@ import { WeatherDetailsComponent } from './Enterprise components/weather-details
     DashboardComponent,
     ServicesComponent,
     FooterComponent,
-    WeatherDetailsComponent
+    WeatherDetailsComponent,
+    ProductsListComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    
     AppRoutingModule
   ],
   providers: [],
