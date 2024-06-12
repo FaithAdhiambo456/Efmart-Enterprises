@@ -8,12 +8,12 @@ import { ServicesComponent } from './DashBoard Components/services/services.comp
 
 const routes: Routes = [
   {path: '', component:LoginComponent},
-  {path: 'signup', component:SignUpComponent},
-  {path: 'login', component:LoginComponent},
-  {path: 'home', component: HomeComponent},
-  {path: 'about', component: AboutComponent},
-  {path: 'services', component: ServicesComponent},
-  {path: 'logout', component: LoginComponent}
+  {path: 'Signup', component:SignUpComponent},
+  {path: 'Login', component:LoginComponent},
+  {path: 'Home', component: HomeComponent},
+  {path: 'About', component: AboutComponent},
+  {path: 'Services', component: ServicesComponent},
+  {path: 'Logout', component: LoginComponent}
 ];
 
 @NgModule({

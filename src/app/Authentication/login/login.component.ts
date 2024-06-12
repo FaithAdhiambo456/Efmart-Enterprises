@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
       alert(`Authenticated as ${email}`); 
 
       
-      this.router.navigate(['/home']);
+      this.router.navigate(['/Home']);
     } else {
       console.log('Form is invalid');
     }

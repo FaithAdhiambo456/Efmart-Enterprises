@@ -40,6 +40,6 @@ export class SignUpComponent implements OnInit {
     } else {
       console.log('Form is invalid');
     }
-    this.router.navigate(["/login"])
+    this.router.navigate(["/Login"])
   }
 }
