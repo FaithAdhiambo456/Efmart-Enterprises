@@ -10,61 +10,81 @@ export class ProductsListComponent {
   products = [
     {
       id: 1,
-      name: "White-Maize",
+      name: "Maize",
       description: "",
       price: 200,
+      color: "White",
       is_in_inventory: true,
       items_left: 7,
-      imageURL: "/assets/images/M1.jpg"
+      imageURL: "/assets/images/M1.jpg",
+      slug: "qwer2345y"
     },
     {
       id: 2,
-      name: "Yellow-Maize",
-      description: "",
-      price: 200,
+      name: "Maize",
+      description: "qwertyu",
+      price: 150,
+      color: "Yellow",
       is_in_inventory: true,
       items_left: 7,
-      imageURL: ""
+      imageURL: "/assets/images/M2.jpg",
+       slug: "qwer2345yt"
     },
     {
       id: 3,
       name: "Beans",
-      description: "",
-      color: "various",
-      price: 200,
+      description: "qwert",
+      color: "Variety",
+      price: 400,
       is_in_inventory: true,
       items_left: 7,
-      imageURL: ""
+      imageURL: "/assets/images/Beans3.jpg",
+       slug: "qwer2345ytre"
     },
     {
       id: 4,
-      name: "sorghum",
-      description: "",
-      color: "",
-      price: 200,
+      name: "Sorghum",
+      description: "qwer",
+      color: "Variety",
+      price: 700,
       is_in_inventory: true,
       items_left: 7,
-      imageURL: ""
+      imageURL: "/assets/images/SO4.jpg",
+       slug: "qwer2345ytre"
     },
     {
       id: 5,
       name: "millet",
-      description: "",
+      description: "qwerty",
       color: "",
-      price: 200,
+      price: 900,
       is_in_inventory: true,
       items_left: 7,
-      imageURL: ""
+      imageURL: "/assets/images/Millet5.jpg",
+       slug: "qwer2345ytre"
     },
     {
       id: 6,
       name: "Rice",
-      description: "",
+      description: "poiuytrewq",
       color: "",
       price: 300,
       is_in_inventory: true,
       items_left: 7,
-      imageURL: ""
+      imageURL: "/assets/images/Rice6.jpg",
+       slug: "qwer2345ytre",
+       Discounted_price: ""
+    },
+    {
+      id: 7,
+      name: "Other grains",
+      description: "Groundnuts, Peanuts, Soya",
+      color: "Variety",
+      price: 250,
+      is_in_inventory: true,
+      items_left: 7,
+      imageURL: "/assets/images/grains.jpg",
+       slug: "qwer2345ytre"
     }
   ]
 }
