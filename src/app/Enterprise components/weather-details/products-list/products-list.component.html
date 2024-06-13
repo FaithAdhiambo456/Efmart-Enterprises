@@ -1,19 +1,21 @@
 <div class="product-container">
-    <img >
-     <p> Name: </p>
-     <p> Price:</p>
-     <p> Color:</p>
-     <p> Discounted Price:</p>
-     <p> In Stock:</p>
+   <div class="ekart--product--item" *ngFor="let prod of products">
+      <div class="ekart--add--to--wishlist">
+         <i class="fa fa-heart-o" aria-hidden="true"></i>
+      </div>
+      <!-- <div class="ekart-on-sale-tag">75% OFF</div> -->
+
+      <div class="ekart--product--image">
+         <img [src]="prod.imageURL" class="ekart--product--image">
+      </div>
+      <div class="ekart--add--to--price">{{prod.price}}</div>
+      <div class="ekart--product--name">{{prod.name}}</div>
+      <div class="ekart--product--category">{{prod.description}}</div>
+      <div class="ekart--product--available-colors">{{prod.color}}</div>
    </div>
-   <!-- *ngFor is used to loop over a list or array -->
-   <!-- <div *ngFor="let item of listOfString">
+</div>
+<!-- *ngFor is used to loop over a list or array -->
+<!-- <div *ngFor="let item of listOfString">
     <p>Current element of array is: {{item}}   
     </p>
    </div> -->
-   <div *ngFor="let product of products">
-<p>{{product.name}}</p>
-<p>{{product.color}}</p>
-<img [src]="product.imageURL">
-<p>{{product.price}}</p>
-   </div>

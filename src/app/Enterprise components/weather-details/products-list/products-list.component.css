@@ -1,0 +1,91 @@
+.product-container{
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 17vh;
+}
+.ekart--product--item{
+    width: 290px;
+    background-color: #FDFEFE;
+    margin: 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: #efefef 2px solid;
+}
+.ekart--product--item:hover{
+    -webkit-box-shadow: 0 0 1px 3px #000 inset;
+    -moz-box-shadow: 0 0 1px 3px #000 inset;
+    border: #efefef 2px solid;
+    box-shadow: 10px 18px #cccccc;
+    transform: scale(1.05);
+}
+.ekart-wishlist-sale-container{
+    display: inline-block;
+    width: 270px;
+    position: absolute;
+    padding: 5px 0px;
+}
+
+ /* Styling for the button to add a product to the wishlist */
+.ekart--add--to--wishlist {
+    padding: 2px 10px;
+    background-color: transparent;
+    border: none;
+    color: #212529;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+/* Heart symbol for wishlist */
+.ekart--add--to--wishlist::before {
+    content: '\2661'; /* Unicode character for an open heart */
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 24px; /* Adjust the font size of the heart symbol */
+}
+
+/* Hover effect */
+.ekart--add--to--wishlist:hover::before {
+    color: #dc3545; /* Change color on hover */
+}
+
+/* Active effect */
+.ekart--add--to--wishlist:active {
+    transform: translateY(1px); /* Add slight downward shift on click */
+}
+
+.ekart-on-sale-tag{
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: -10px;
+    padding: 5px 10px;
+    background-color: #FFC000;
+    color: #282828;
+    font-weight: bold;
+}
+.ekart--add--to--price{
+    padding: 1px 5px;
+    position: absolute;
+    margin-top: -25px;
+    background: #282828;
+    color: white;
+}
+/* .ekart--product--image{
+    width: 265px;
+    height: 250px;
+} */
+ .ekart--product--name{
+    font-size: 14px;
+    color: #282828;
+    margin-top: 7px;
+ }
+ .ekart--product--category, 
+ .ekart--product--available-colors{
+    font-size: 12px;
+    color: #999;
+    margin-top: 7px;
+ }
